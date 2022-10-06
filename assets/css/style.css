@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+}
+.header{
+    height: 30vh;
+    width: 100%;
+    /*background-image: url(https://www.caracteristicas.co/wp-content/uploads/2018/12/iguana-1-e1584714455386.jpg);*/
+    background-image: url(../imgs/iguanaVerde.jpg);
+    background-size: cover;
+    border: solid 1px black;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+}
+
+#titulo{
+    font-size: 4vw;
+    margin: auto;
+    
+}
+
+#subtitulo{
+    font-size: 2vw;
+    margin: auto;
+    color: rgb(2, 22, 29);
+}
+
+.DecoIguana {
+    margin-left: 10vw;
+    color: white;
+}
+
+.venta{
+    width: 300px;   
+    padding: 20px;
+}
+
+#venta1, #venta2, #venta3{
+    width: 300px;   
+    padding: 20px;
+    transition: border 3s, transform 3s, width 3s;
+}
+
+#venta1:hover{
+    border: solid 5px black;
+}
+
+#venta2:hover{
+    transform: rotate(355deg);
+}
+
+#venta3:hover{
+    width: 80%;
+}
+
+.tableBody{
+    width: 50%;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.tamaño{
+    font-size: 30px;
+}
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(27, 105, 51);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    }
+    
